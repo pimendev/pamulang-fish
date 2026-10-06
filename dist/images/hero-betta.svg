@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+    <defs>
+        <radialGradient id="heroBg" cx="50%" cy="50%" r="75%">
+            <stop offset="0%" stop-color="#0c4a6e" />
+            <stop offset="60%" stop-color="#0f172a" />
+            <stop offset="100%" stop-color="#020617" />
+        </radialGradient>
+        <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#38bdf8" />
+            <stop offset="50%" stop-color="#06b6d4" />
+            <stop offset="100%" stop-color="#3b82f6" />
+        </linearGradient>
+        <linearGradient id="tailGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0284c7" />
+            <stop offset="40%" stop-color="#06b6d4" />
+            <stop offset="100%" stop-color="#38bdf8" />
+        </linearGradient>
+        <filter id="heroFilter" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="12" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+        </filter>
+    </defs>
+    <rect width="800" height="600" fill="url(#heroBg)" />
+    
+    <!-- Light Orbs -->
+    <circle cx="450" cy="300" r="220" fill="#0284c7" opacity="0.18" />
+    <circle cx="500" cy="240" r="140" fill="#38bdf8" opacity="0.22" />
+
+    <!-- Water Rings -->
+    <circle cx="450" cy="300" r="260" stroke="#38bdf8" stroke-width="1.5" fill="none" opacity="0.15" stroke-dasharray="10 15" />
+    <circle cx="450" cy="300" r="320" stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.1" stroke-dasharray="8 20" />
+
+    <!-- Bubbles -->
+    <circle cx="120" cy="180" r="16" fill="#38bdf8" opacity="0.25" />
+    <circle cx="700" cy="140" r="22" fill="#06b6d4" opacity="0.2" />
+    <circle cx="650" cy="460" r="14" fill="#38bdf8" opacity="0.25" />
+    <circle cx="180" cy="480" r="20" fill="#67e8f9" opacity="0.15" />
+
+    <!-- Big Champion Betta Showcase (Halfmoon Flaring) -->
+    <g filter="url(#heroFilter)">
+        <!-- Massive Dorsal Fin -->
+        <path d="M 280,240 C 310,100 440,70 540,120 C 480,180 400,220 280,240 Z" fill="url(#tailGlow)" opacity="0.92" />
+        
+        <!-- Anal Fin -->
+        <path d="M 260,340 C 300,480 440,490 540,420 C 470,370 380,340 260,340 Z" fill="url(#tailGlow)" opacity="0.9" />
+
+        <!-- Caudal Fin (180° Halfmoon) -->
+        <path d="M 440,290 C 580,140 720,180 760,300 C 720,420 580,460 440,310 Z" fill="url(#neonGlow)" opacity="0.9" />
+        <path d="M 420,280 C 540,110 650,130 700,200 C 620,260 520,280 420,280 Z" fill="#ffffff" opacity="0.8" />
+        <path d="M 420,320 C 540,490 650,470 700,400 C 620,340 520,320 420,320 Z" fill="#38bdf8" opacity="0.85" />
+
+        <!-- Body -->
+        <ellipse cx="320" cy="295" rx="140" ry="70" fill="url(#neonGlow)" />
+        
+        <!-- Pectoral Fin -->
+        <ellipse cx="270" cy="310" rx="40" ry="25" fill="#ffffff" opacity="0.85" />
+
+        <!-- Head / Eye -->
+        <circle cx="220" cy="285" r="10" fill="#020617" stroke="#ffffff" stroke-width="3" />
+        <circle cx="218" cy="283" r="3.5" fill="#ffffff" />
+        
+        <!-- Gills & Flaring Beard -->
+        <path d="M 250,290 Q 230,340 270,350 Q 260,310 250,290 Z" fill="#ef4444" opacity="0.8" />
+
+        <!-- Scales Pattern -->
+        <path d="M 280,270 Q 300,295 280,320" stroke="#ffffff" stroke-width="3.5" fill="none" opacity="0.8" />
+        <path d="M 320,265 Q 340,295 320,325" stroke="#ffffff" stroke-width="3.5" fill="none" opacity="0.8" />
+        <path d="M 360,270 Q 380,295 360,320" stroke="#ffffff" stroke-width="3.5" fill="none" opacity="0.8" />
+    </g>
+
+    <!-- Overlay Badge & Title -->
+    <rect x="50" y="50" width="220" height="40" rx="20" fill="#0f172a" opacity="0.9" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="72" cy="70" r="6" fill="#06b6d4" />
+    <text x="90" y="75" fill="#ffffff" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="800">SPESIMEN JUARA KONTES</text>
+
+    <!-- Bottom Showcase Bar -->
+    <rect x="50" y="500" width="700" height="65" rx="16" fill="#0f172a" opacity="0.92" stroke="#334155" stroke-width="1.5" />
+    <text x="80" y="533" fill="#ffffff" font-family="Plus Jakarta Sans, sans-serif" font-size="17" font-weight="800">Halfmoon Blue Rim & Avatar Gordon Line</text>
+    <text x="80" y="552" fill="#38bdf8" font-family="Plus Jakarta Sans, sans-serif" font-size="12" font-weight="600">Garansi D.O.A 100% • 1 Ikan 1 Stok Eksklusif (WYSIWYG) • Packing Tabung Oksigen</text>
+    <text x="710" y="540" fill="#10b981" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="800" text-anchor="end">TERSEDIA</text>
+</svg>

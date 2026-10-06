@@ -9,19 +9,19 @@
     "routes": [
         {
             "src": "/(build|images|assets|storage)/(.*)",
-            "dest": "/public/$1/$2"
+            "dest": "/dist/$1/$2"
         },
         {
             "src": "/(.*)\\.(jpg|jpeg|png|gif|svg|webp|css|js|ico|txt|woff|woff2|ttf|eot)$",
-            "dest": "/public/$1.$2"
+            "dest": "/dist/$1.$2"
         },
         {
             "src": "/favicon.ico",
-            "dest": "/public/favicon.ico"
+            "dest": "/dist/favicon.ico"
         },
         {
             "src": "/robots.txt",
-            "dest": "/public/robots.txt"
+            "dest": "/dist/robots.txt"
         },
         {
             "src": "/(.*)",
