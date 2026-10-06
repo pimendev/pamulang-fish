@@ -8,20 +8,12 @@
     },
     "routes": [
         {
-            "src": "/build/(.*)",
-            "dest": "/public/build/$1"
+            "src": "/(build|images|assets|storage)/(.*)",
+            "dest": "/public/$1/$2"
         },
         {
-            "src": "/images/(.*)",
-            "dest": "/public/images/$1"
-        },
-        {
-            "src": "/assets/(.*)",
-            "dest": "/public/assets/$1"
-        },
-        {
-            "src": "/storage/(.*)",
-            "dest": "/public/storage/$1"
+            "src": "/(.*)\\.(jpg|jpeg|png|gif|svg|webp|css|js|ico|txt|woff|woff2|ttf|eot)$",
+            "dest": "/public/$1.$2"
         },
         {
             "src": "/favicon.ico",
