@@ -1,0 +1,1716 @@
+
+PRODUCT REQUIREMENTS DOCUMENT (PRD)
+1. Nama Produk
+BettaFish Store — E-Commerce Ikan Cupang
+Platform e-commerce khusus untuk menjual ikan cupang, perlengkapan ikan cupang, pakan, aquarium, aksesoris, dan produk terkait.
+Website terdiri dari:
+Frontend Customer
+Admin Dashboard
+Dynamic Website Customization / Theme Settings
+Product Management
+Order Management
+Customer Management
+Content Management
+
+2. Tujuan Produk
+Membangun website e-commerce modern dan profesional yang secara khusus menjual ikan cupang dan produk pendukungnya.
+Website harus memiliki tampilan visual yang menarik, premium, modern, responsif, dan mudah digunakan.
+Admin harus memiliki kemampuan untuk mengubah tampilan frontend melalui dashboard tanpa harus mengubah kode program.
+Admin dapat mengatur:
+Font website
+Ukuran font
+Warna utama
+Warna sekunder
+Warna background
+Dark Mode
+Light Mode
+Border radius
+Tampilan tombol
+Navbar
+Footer
+Banner
+Logo
+Favicon
+Hero section
+Layout produk
+Card produk
+Spacing
+Typography
+Tampilan mobile
+Dan elemen visual lainnya
+Semua perubahan yang dilakukan admin harus dapat diterapkan secara dinamis ke frontend.
+
+3. Target Pengguna
+3.1 Customer
+Customer dapat:
+Melihat katalog ikan cupang
+Melihat detail ikan
+Mencari produk
+Filter produk
+Mengurutkan produk
+Menambahkan produk ke keranjang
+Checkout
+Melakukan pembayaran
+Melihat status pesanan
+Melihat riwayat pesanan
+Membuat akun
+Login
+Mengelola profil
+Memberikan ulasan produk
+3.2 Admin
+Admin dapat:
+Mengelola produk
+Mengelola kategori
+Mengelola stok
+Mengelola pesanan
+Mengelola customer
+Mengelola banner
+Mengelola konten website
+Mengatur tampilan frontend
+Mengatur tema
+Mengatur typography
+Mengatur warna
+Mengatur layout
+Melihat statistik penjualan
+
+4. Konsep Visual
+Gunakan desain:
+Modern Aquatic E-Commerce
+Karakter desain:
+Premium
+Clean
+Modern
+Fresh
+Elegant
+Minimalist
+Responsive
+Tidak terlihat seperti template e-commerce generik
+Gunakan kombinasi visual yang terinspirasi dari:
+Air
+Aquarium
+Ikan cupang
+Nature
+Aquatic blue
+Deep navy
+Emerald
+Cyan
+Tetapi jangan membuat website terlalu ramai.
+Prioritaskan foto ikan sebagai visual utama.
+
+5. FRONTEND CUSTOMER
+5.1 Homepage
+Homepage terdiri dari:
+Navbar
+Navbar harus memiliki:
+Logo
+Home
+Shop
+Kategori
+Tentang Kami
+Kontak
+Search
+Wishlist
+Cart
+Login / Profile
+Navbar harus responsive.
+Pada mobile gunakan:
+Hamburger menu
+Search
+Cart
+
+5.2 Hero Section
+Hero section menampilkan:
+Foto ikan cupang berkualitas tinggi
+Headline
+Subheadline
+CTA button
+Contoh:
+Temukan Ikan Cupang Terbaik untuk Aquarium Anda
+Subheadline:
+Koleksi ikan cupang berkualitas dengan perawatan terbaik dan pengiriman aman.
+Button:
+Belanja Sekarang
+dan:
+Lihat Koleksi
+Hero harus memiliki visual premium dengan animasi ringan.
+
+6. Product Categories
+Kategori utama:
+Betta Fish
+Halfmoon
+Plakat
+Crowntail
+Double Tail
+Giant Betta
+Fancy Betta
+Koi Betta
+Nemo Betta
+Avatar Betta
+Galaxy Betta
+Accessories
+Aquarium
+Container
+Filter
+Lampu Aquarium
+Dekorasi
+Food
+Pelet
+Bloodworm
+Artemia
+Cacing
+Vitamin
+Equipment
+Water Conditioner
+Heater
+Thermometer
+Cleaning Tools
+
+7. Product Listing
+Halaman Shop menampilkan:
+Product grid
+Search
+Filter
+Sorting
+Pagination / infinite scroll
+Filter:
+Kategori
+Harga
+Warna
+Jenis
+Ukuran
+Gender
+Availability
+Rating
+Sorting:
+Terbaru
+Terlaris
+Harga terendah
+Harga tertinggi
+Rating tertinggi
+
+8. Product Card
+Setiap product card menampilkan:
+Foto produk
+Badge
+Nama produk
+Jenis ikan
+Harga
+Harga diskon jika ada
+Rating
+Stock status
+Wishlist button
+Add to cart
+Untuk ikan cupang dapat menampilkan:
+Gender: Male
+Type: Halfmoon
+Color: Galaxy Blue
+Size: 5 cm
+
+9. Product Detail
+Halaman detail produk menampilkan:
+Gallery foto
+Zoom image
+Nama ikan
+Harga
+Harga diskon
+Stock
+Jenis ikan
+Gender
+Warna
+Ukuran
+Umur
+Deskripsi
+Informasi perawatan
+Rating
+Review
+Related products
+CTA:
+Add to Cart
+Buy Now
+Wishlist:
+♡ Add to Wishlist
+
+10. Shopping Cart
+Cart menampilkan:
+Product image
+Product name
+Price
+Quantity
+Subtotal
+Remove button
+Summary:
+Subtotal
+Discount
+Shipping
+Total
+CTA:
+Checkout
+
+11. Checkout
+Checkout harus memiliki:
+Customer Information
+Nama
+Email
+Nomor HP
+Shipping Address
+Provinsi
+Kota
+Kecamatan
+Alamat
+Kode Pos
+Shipping Method
+Contoh:
+Regular
+Express
+Same Day jika tersedia
+Payment
+Gunakan struktur yang dapat dikembangkan untuk:
+Bank Transfer
+E-Wallet
+QRIS
+Payment Gateway
+Tampilkan order summary.
+
+12. Order Tracking
+Customer dapat melihat:
+Order Received
+↓
+Payment Confirmed
+↓
+Processing
+↓
+Fish Preparation
+↓
+Packing
+↓
+Shipped
+↓
+Delivered
+Khusus ikan hidup, tampilkan informasi tambahan:
+Ikan akan dipacking menggunakan metode khusus untuk menjaga keamanan selama pengiriman.
+
+13. CUSTOMER ACCOUNT
+Customer dashboard memiliki:
+Profile
+Orders
+Wishlist
+Addresses
+Reviews
+Notifications
+Logout
+
+14. ADMIN DASHBOARD
+Admin dashboard harus menggunakan layout modern.
+Sidebar:
+Dashboard
+Products
+Categories
+Orders
+Customers
+Reviews
+Promotions
+Banners
+Content
+Appearance
+Settings
+
+15. ADMIN DASHBOARD — DASHBOARD HOME
+Tampilkan statistik:
+Total Sales
+Rp XX.XXX.XXX
+Total Orders
+XXX
+Total Products
+XXX
+Total Customers
+XXX
+Low Stock
+XX
+Tambahkan chart:
+Sales Overview
+Order Statistics
+Best Selling Products
+
+16. PRODUCT MANAGEMENT
+Admin dapat:
+Create product
+Edit product
+Delete product
+Duplicate product
+Manage stock
+Upload multiple images
+Set price
+Set discount
+Set category
+Set SKU
+Untuk ikan cupang:
+Nama ikan
+Jenis
+Gender
+Warna
+Size
+Umur
+Harga
+Stock
+Status
+Deskripsi
+Foto
+Status:
+Available
+Sold Out
+Reserved
+Coming Soon
+
+17. ADMIN APPEARANCE SETTINGS
+Ini adalah fitur utama website.
+Buat menu:
+Appearance
+Admin dapat mengubah tampilan frontend tanpa coding.
+Gunakan konsep:
+Live Website Customizer
+Layout:
+LEFT SIDEBAR → pengaturan
+CENTER → live preview
+RIGHT PANEL → detail setting
+Atau gunakan layout:
+Settings Panel + Live Preview
+Setiap perubahan langsung terlihat pada preview.
+
+18. THEME MODE
+Admin dapat memilih:
+Light Mode
+Tema terang.
+Dark Mode
+Tema gelap.
+System
+Mengikuti sistem perangkat customer.
+Admin juga dapat menentukan default theme.
+Pilihan:
+○ Light
+○ Dark
+○ System
+
+19. COLOR CUSTOMIZATION
+Admin dapat mengatur:
+Primary Color
+Contoh:
+#0EA5E9
+Secondary Color
+Contoh:
+#10B981
+Accent Color
+Contoh:
+#8B5CF6
+Background Color
+Card Background
+Text Color
+Muted Text
+Border Color
+Gunakan color picker.
+Admin dapat memasukkan:
+HEX
+RGB
+HSL
+Contoh:
+Primary Color
+[ #0EA5E9 ] [ Color Picker ]
+Secondary Color
+[ #10B981 ] [ Color Picker ]
+
+20. TYPOGRAPHY SETTINGS
+Admin dapat mengatur font frontend.
+Font Family
+Sediakan pilihan:
+Inter
+Poppins
+Roboto
+Montserrat
+Nunito
+DM Sans
+Plus Jakarta Sans
+Open Sans
+Jika memungkinkan gunakan Google Fonts atau font lokal.
+
+21. FONT SIZE SETTINGS
+Admin dapat mengatur ukuran:
+Heading
+Small
+Medium
+Large
+Extra Large
+Body
+Small
+Medium
+Large
+Button
+Small
+Medium
+Large
+Berikan juga custom value.
+Contoh:
+Body Font Size
+[ 16px ]
+Heading Font Size
+[ 32px ]
+Button Font Size
+[ 14px ]
+
+22. FONT WEIGHT
+Admin dapat memilih:
+Light
+Regular
+Medium
+Semibold
+Bold
+Extra Bold
+Contoh:
+Heading Weight
+[ 700 ]
+Body Weight
+[ 400 ]
+
+23. BORDER RADIUS
+Admin dapat mengatur tingkat rounded:
+Sharp
+Small
+Medium
+Large
+Extra Large
+Fully Rounded
+Atau custom:
+Border Radius: 12px
+Pengaturan diterapkan pada:
+Button
+Product Card
+Input
+Modal
+Image
+Badge
+
+24. BUTTON STYLE
+Admin dapat memilih:
+Button Style
+Solid
+Outline
+Ghost
+Soft
+Gradient
+Button Shape
+Square
+Rounded
+Pill
+Preview button harus berubah secara realtime.
+
+25. HEADER / NAVBAR SETTINGS
+Admin dapat mengatur:
+Navbar style
+Navbar background
+Logo
+Logo size
+Menu spacing
+Text color
+Sticky navbar
+Transparency
+Border
+Shadow
+Pilihan navbar:
+Default
+Minimal
+Transparent
+Floating
+
+26. LOGO MANAGEMENT
+Admin dapat:
+Upload logo
+Replace logo
+Delete logo
+Set logo width
+Set logo height
+Format:
+PNG
+JPG
+WEBP
+SVG
+Tambahkan:
+Favicon Management
+
+27. HOMEPAGE CUSTOMIZATION
+Admin dapat mengatur section homepage.
+Section yang tersedia:
+Hero
+Featured Products
+Categories
+Best Sellers
+New Arrivals
+Promo Banner
+About
+Testimonials
+Instagram / Social Feed
+Newsletter
+Footer
+Admin dapat:
+Enable
+Disable
+Reorder
+Gunakan drag and drop.
+Contoh:
+☰ Hero
+☰ Categories
+☰ Best Sellers
+☰ Promo
+☰ New Arrivals
+☰ Testimonials
+☰ Newsletter
+
+28. HERO CUSTOMIZER
+Admin dapat mengubah:
+Hero title
+Subtitle
+Button text
+Button link
+Hero image
+Background
+Overlay
+Text alignment
+Alignment:
+Left
+Center
+Right
+
+29. LIVE PREVIEW
+Fitur penting.
+Ketika admin mengubah:
+Font
+Font size
+Color
+Theme
+Button
+Border radius
+Navbar
+preview harus langsung berubah.
+Gunakan:
+Real-time preview
+Tanpa harus reload halaman.
+Tambahkan tombol:
+Preview Desktop
+Preview Tablet
+Preview Mobile
+
+30. SAVE / PUBLISH SYSTEM
+Jangan langsung menerapkan perubahan ke website ketika admin mengedit.
+Gunakan sistem:
+Draft → Preview → Publish
+Button:
+Save Draft
+Preview
+Publish Changes
+Reset Changes
+Admin dapat melihat perubahan sebelum dipublikasikan.
+
+31. RESET APPEARANCE
+Tambahkan:
+Reset to Default
+Ketika diklik tampilkan confirmation modal:
+Apakah Anda yakin ingin mengembalikan pengaturan tampilan ke default?
+Button:
+Cancel
+Reset
+
+32. PRESET THEMES
+Buat beberapa preset tema.
+Ocean Blue
+Deep Navy
+Cyan
+Blue
+White
+Betta Green
+Emerald
+Dark Green
+White
+Royal Purple
+Purple
+Indigo
+Cyan
+Midnight
+Black
+Dark Navy
+Blue
+Clean Aqua
+White
+Aqua
+Cyan
+Admin dapat memilih:
+Apply Theme
+Kemudian theme dapat tetap diedit secara manual.
+
+33. RESPONSIVE DESIGN
+Website harus optimal pada:
+Desktop
+1920px
+1440px
+1280px
+Tablet
+1024px
+768px
+Mobile
+430px
+390px
+375px
+Semua layout harus responsive.
+Admin appearance settings juga harus memiliki preview responsive.
+
+34. DARK MODE
+Dark mode harus bukan hanya mengubah background.
+Semua komponen harus memiliki dark theme:
+Navbar
+Card
+Product
+Button
+Input
+Modal
+Footer
+Sidebar
+Table
+Dashboard
+Checkout
+Gunakan CSS variables / design tokens sehingga theme dapat dikelola secara terpusat.
+
+35. DESIGN TOKEN SYSTEM
+Gunakan sistem design token.
+Contoh:
+--color-primary
+--color-secondary
+--color-accent
+--color-background
+--color-surface
+--color-text
+--color-muted
+--color-border
+--font-family
+--font-size-body
+--font-size-heading
+--radius-sm
+--radius-md
+--radius-lg
+--shadow-sm
+--shadow-md
+--shadow-lg
+Semua komponen frontend harus menggunakan token tersebut.
+Jangan hardcode warna atau font pada setiap komponen.
+Tujuannya agar perubahan dari Admin Appearance Settings dapat diterapkan ke seluruh website.
+
+36. DATABASE STRUCTURE
+Gunakan struktur database yang scalable.
+Minimal tabel:
+users
+id
+name
+email
+password
+role
+created_at
+products
+id
+name
+slug
+category_id
+description
+price
+discount_price
+stock
+sku
+status
+created_at
+updated_at
+product_images
+id
+product_id
+image_url
+sort_order
+categories
+id
+name
+slug
+image
+status
+orders
+id
+user_id
+order_number
+subtotal
+shipping
+discount
+total
+payment_status
+order_status
+created_at
+order_items
+id
+order_id
+product_id
+quantity
+price
+subtotal
+reviews
+id
+user_id
+product_id
+rating
+review
+status
+appearance_settings
+id
+theme_mode
+primary_color
+secondary_color
+accent_color
+background_color
+surface_color
+text_color
+font_family
+body_font_size
+heading_font_size
+button_font_size
+heading_font_weight
+body_font_weight
+border_radius
+button_style
+navbar_style
+logo_url
+favicon_url
+updated_at
+homepage_sections
+id
+section_type
+title
+content
+image
+sort_order
+is_active
+
+37. ADMIN PERMISSION
+Gunakan role-based access control.
+Role:
+Super Admin
+Akses semua fitur.
+Admin
+Akses:
+Products
+Orders
+Customers
+Content
+Appearance
+Staff
+Akses terbatas:
+Orders
+Products
+
+38. SEARCH
+Search harus dapat mencari:
+Nama ikan
+Jenis
+Warna
+SKU
+Kategori
+Tambahkan search suggestion.
+
+39. NOTIFICATION
+Admin mendapatkan notifikasi:
+Pesanan baru
+Pembayaran masuk
+Produk stok rendah
+Produk habis
+Review baru
+Customer mendapatkan:
+Order confirmed
+Payment confirmed
+Order shipped
+Order delivered
+
+40. SECURITY
+Implementasikan:
+Authentication
+Password hashing
+Authorization
+Role based access
+Input validation
+CSRF protection
+XSS protection
+SQL injection protection
+Rate limiting
+Secure file upload
+Image validation
+Admin route harus dilindungi.
+
+41. IMAGE MANAGEMENT
+Optimalkan gambar produk.
+Support:
+JPG
+PNG
+WEBP
+Gunakan:
+Image compression
+Lazy loading
+Responsive image
+Thumbnail
+Image preview
+
+42. SEO
+Setiap product memiliki:
+SEO title
+SEO description
+Slug
+Open Graph image
+Gunakan URL:
+/shop
+/shop/betta-fish
+/product/betta-halfmoon-blue
+
+43. UX REQUIREMENTS
+Prioritaskan:
+Fast loading
+Simple navigation
+Clear CTA
+Large product images
+Easy checkout
+Mobile friendly
+Accessible typography
+Good color contrast
+Jangan menggunakan terlalu banyak animasi.
+Gunakan animasi yang subtle.
+
+44. EMPTY STATES
+Buat empty state untuk:
+Cart kosong
+Wishlist kosong
+Search tidak ditemukan
+Produk habis
+Order kosong
+Contoh:
+Belum ada produk di keranjang.
+Button:
+Mulai Belanja
+
+45. ERROR STATES
+Tampilkan error message yang jelas.
+Contoh:
+Terjadi kesalahan. Silakan coba lagi.
+Jangan menampilkan error teknis kepada customer.
+
+46. LOADING STATES
+Gunakan skeleton loading untuk:
+Product card
+Product detail
+Dashboard
+Orders
+Search result
+
+47. ADMIN APPEARANCE UX
+Appearance page harus menjadi salah satu fitur paling penting.
+Layout yang direkomendasikan:
+┌─────────────────────────────────────────────┐
+│ Appearance              Save Draft  Publish │
+├──────────────┬──────────────────────────────┤
+│              │                              │
+│ Theme        │                              │
+│ Colors       │                              │
+│ Typography   │       LIVE PREVIEW            │
+│ Buttons      │                              │
+│ Navbar       │                              │
+│ Homepage     │                              │
+│ Logo         │                              │
+│              │                              │
+└──────────────┴──────────────────────────────┘
+Preview harus dapat diganti:
+Desktop | Tablet | Mobile
+
+48. THEME ARCHITECTURE
+Frontend harus mengambil konfigurasi dari database.
+Contoh:
+const theme = {
+  mode: "dark",
+  primary: "#0EA5E9",
+  secondary: "#10B981",
+  accent: "#8B5CF6",
+  fontFamily: "Inter",
+  bodyFontSize: "16px",
+  headingFontSize: "32px",
+  borderRadius: "12px"
+}
+Theme diterapkan menggunakan CSS variables.
+Contoh:
+:root {
+  --primary: var(--admin-primary);
+  --secondary: var(--admin-secondary);
+  --background: var(--admin-background);
+  --text: var(--admin-text);
+  --font-family: var(--admin-font);
+  --body-size: var(--admin-body-size);
+}
+
+49. TECH STACK
+Gunakan stack modern.
+Recommended:
+Frontend
+Next.js
+React
+TypeScript
+Tailwind CSS
+UI
+shadcn/ui
+Lucide Icons
+Backend
+Next.js API / Node.js
+Database
+PostgreSQL
+ORM
+Prisma
+Authentication
+Auth.js / NextAuth
+Storage
+Cloudinary / Supabase Storage
+Payment
+Midtrans
+Deployment
+Vercel
+
+50. IMPORTANT DEVELOPMENT RULES
+Buat UI terlebih dahulu dengan data dummy.
+Pastikan semua halaman responsive.
+Gunakan reusable components.
+Jangan membuat komponen yang terlalu besar.
+Gunakan TypeScript.
+Gunakan design tokens.
+Jangan hardcode theme.
+Appearance settings harus mengubah frontend secara dinamis.
+Dark mode harus diterapkan ke seluruh komponen.
+Admin harus dapat melihat preview sebelum publish.
+Semua form harus memiliki validation.
+Semua API harus memiliki authentication dan authorization.
+Gunakan loading state.
+Gunakan error state.
+Gunakan empty state.
+Gunakan toast notification untuk aksi sukses/gagal.
+Optimalkan gambar.
+Optimalkan SEO.
+Pastikan mobile responsive.
+Jangan menggunakan desain yang terlalu ramai.
+
+51. ACCEPTANCE CRITERIA
+Website dianggap berhasil apabila:
+Customer
+Customer dapat melihat produk.
+Customer dapat mencari produk.
+Customer dapat filter produk.
+Customer dapat melihat detail ikan.
+Customer dapat memasukkan produk ke cart.
+Customer dapat checkout.
+Customer dapat melihat order.
+Admin
+Admin dapat CRUD produk.
+Admin dapat mengatur kategori.
+Admin dapat mengelola order.
+Admin dapat mengelola customer.
+Admin dapat mengubah banner.
+Admin dapat mengubah logo.
+Appearance
+Admin harus dapat:
+Mengubah font.
+Mengubah ukuran font.
+Mengubah font weight.
+Mengubah primary color.
+Mengubah secondary color.
+Mengubah accent color.
+Mengubah background.
+Mengubah border radius.
+Mengubah button style.
+Mengubah navbar style.
+Mengaktifkan Dark Mode.
+Mengaktifkan Light Mode.
+Memilih System Theme.
+Mengatur homepage section.
+Mengubah logo.
+Melihat live preview.
+Menyimpan sebagai draft.
+Publish perubahan.
+Reset ke default.
+Semua perubahan appearance harus langsung diterapkan ke frontend setelah admin melakukan Publish.
+
+52. OUTPUT YANG DIHARAPKAN DARI AI CODING AGENT
+Bangun aplikasi secara bertahap.
+Phase 1
+Buat:
+Project setup
+Database
+Authentication
+Design system
+Frontend layout
+Admin layout
+Phase 2
+Buat:
+Product management
+Category management
+Product detail
+Cart
+Checkout
+Orders
+Phase 3
+Buat:
+Appearance settings
+Theme engine
+Dark mode
+Light mode
+Typography settings
+Color settings
+Button settings
+Navbar settings
+Live preview
+Phase 4
+Buat:
+Homepage builder
+Drag and drop sections
+Banner management
+Logo management
+Phase 5
+Buat:
+SEO
+Performance optimization
+Security
+Testing
+Responsive testing
+
+53. FINAL UI DIRECTION
+Jangan membuat website seperti dashboard template biasa.
+Website customer harus terasa seperti:
+Premium Betta Fish Marketplace
+Gunakan:
+High-quality fish photography
+Modern typography
+Large whitespace
+Elegant cards
+Smooth transitions
+Premium product presentation
+Aquatic visual identity
+Admin dashboard harus terasa seperti:
+Modern SaaS Admin Dashboard
+Appearance editor harus terasa seperti:
+Shopify / Webflow-style visual customization
+Tetapi dibuat lebih sederhana agar mudah digunakan oleh admin.
+Prioritaskan usability, performance, responsiveness, accessibility, dan maintainability.
+Hasil akhir harus berupa website e-commerce ikan cupang yang siap dikembangkan menjadi production-grade application.
+54. ARTICLE / BLOG / EDUKASI IKAN CUPANG
+Website harus memiliki halaman Artikel / Blog / Edukasi yang berisi informasi seputar ikan cupang.
+Tujuannya:
+Memberikan edukasi kepada customer.
+Membantu customer merawat ikan cupang.
+Meningkatkan kepercayaan terhadap toko.
+Meningkatkan SEO website.
+Mendatangkan traffic dari Google.
+Membantu customer memilih produk yang sesuai.
+Membuat website tidak hanya menjadi marketplace, tetapi juga menjadi pusat informasi ikan cupang.
+Menu frontend:
+Artikel
+atau:
+Panduan Cupang
+
+55. HALAMAN ARTIKEL
+Buat halaman:
+/artikel
+Tampilkan:
+Featured article
+Artikel terbaru
+Artikel populer
+Kategori artikel
+Search artikel
+Filter artikel
+Pagination
+Layout:
+┌──────────────────────────────────────────┐
+│          PANDUAN IKAN CUPANG             │
+│ Tips, panduan dan informasi seputar      │
+│ ikan cupang untuk pemula hingga breeder  │
+└──────────────────────────────────────────┘
+[ Search artikel........................ ]
+Kategori:
+[Perawatan] [Pakan] [Aquarium] [Breeding]
+┌──────────────┐ ┌──────────────┐
+│    IMAGE     │ │    IMAGE     │
+│              │ │              │
+│ Judul Artikel│ │ Judul Artikel│
+│ 5 min read   │ │ 7 min read   │
+└──────────────┘ └──────────────┘
+
+56. KATEGORI ARTIKEL
+Sediakan kategori:
+Perawatan Ikan Cupang
+Berisi panduan:
+Cara merawat ikan cupang
+Cara mengganti air
+Cara membersihkan aquarium
+Cara menjaga kualitas air
+Cara mengetahui ikan cupang sehat
+Tanda ikan cupang sakit
+Cara menangani ikan cupang yang stres
+Pakan
+Berisi:
+Makanan terbaik untuk ikan cupang
+Jadwal pemberian makan
+Berapa kali ikan cupang diberi makan
+Pelet vs makanan hidup
+Bloodworm
+Artemia
+Daphnia
+Cacing
+Kesalahan pemberian pakan
+Aquarium
+Berisi:
+Ukuran aquarium yang sesuai
+Cara menyiapkan aquarium
+Dekorasi aquarium
+Filter untuk ikan cupang
+Heater
+Lampu aquarium
+Tanaman aquarium
+Cara menjaga kebersihan aquarium
+Kesehatan
+Berisi:
+Penyakit ikan cupang
+Fin rot
+Ich
+Jamur
+Masalah sirip
+Ikan cupang tidak mau makan
+Ikan cupang lemas
+Ikan cupang sering bersembunyi
+Pencegahan penyakit
+Untuk artikel kesehatan, konten harus ditulis secara informatif dan tidak menggantikan diagnosis profesional dari dokter hewan atau ahli ikan.
+Jenis Ikan Cupang
+Berisi:
+Halfmoon
+Plakat
+Crowntail
+Double Tail
+Giant Betta
+Koi Betta
+Nemo Betta
+Galaxy Betta
+Fancy Betta
+Avatar Betta
+Breeding
+Berisi:
+Cara breeding ikan cupang
+Menyiapkan indukan
+Memilih indukan
+Proses pemijahan
+Perawatan telur
+Perawatan burayak
+Pakan burayak
+Memisahkan ikan cupang
+Tips &amp; Tricks
+Berisi:
+Tips memilih ikan cupang
+Tips membeli ikan cupang online
+Tips pengiriman ikan cupang
+Cara adaptasi ikan setelah pengiriman
+Cara membuat warna ikan cupang lebih optimal
+Kesalahan umum pemula
+
+57. ARTIKEL UNGGULAN
+Homepage dapat memiliki section:
+Artikel Terbaru
+Tampilkan 3–6 artikel terbaru.
+Contoh:
+Cara Merawat Ikan Cupang untuk Pemula
+Panduan lengkap mulai dari memilih aquarium, memberikan pakan, mengganti air, hingga menjaga kondisi ikan tetap sehat.
+Button:
+Baca Artikel
+
+10 Kesalahan Pemula Saat Memelihara Ikan Cupang
+Hindari kesalahan umum yang sering dilakukan oleh pemilik ikan cupang pemula.
+Button:
+Baca Artikel
+
+Berapa Kali Ikan Cupang Harus Diberi Makan?
+Panduan mengenai jadwal pemberian pakan dan cara menghindari overfeeding.
+Button:
+Baca Artikel
+
+58. ARTICLE DETAIL PAGE
+URL:
+/artikel/cara-merawat-ikan-cupang
+Halaman artikel harus memiliki:
+Breadcrumb
+Judul
+Featured image
+Author
+Published date
+Updated date
+Reading time
+Category
+Article content
+Table of contents
+Related products
+Related articles
+Share button
+Previous article
+Next article
+Contoh struktur:
+Home
+  &gt;
+Artikel
+  &gt;
+Perawatan
+CARA MERAWAT IKAN CUPANG
+UNTUK PEMULA
+By BettaFish Store
+12 September 2026
+5 min read
+[ FEATURED IMAGE ]
+Table of Contents
+1. Persiapan Aquarium
+2. Kualitas Air
+3. Pemberian Pakan
+4. Penggantian Air
+5. Tanda Ikan Sehat
+Article Content
+
+59. TABLE OF CONTENTS
+Jika artikel memiliki heading:
+H2
+H3
+sistem secara otomatis membuat:
+Table of Contents
+Contoh:
+Daftar Isi
+01. Mengenal Ikan Cupang
+02. Menyiapkan Aquarium
+03. Memilih Air
+04. Pemberian Pakan
+05. Membersihkan Aquarium
+06. Tanda Ikan Cupang Sehat
+Pada desktop dapat dibuat sticky di sisi artikel.
+Pada mobile gunakan collapsible dropdown.
+
+60. RELATED PRODUCTS
+Artikel harus dapat terhubung dengan produk.
+Contoh artikel:
+Cara Menyiapkan Aquarium Ikan Cupang
+Di dalam artikel tampil:
+Produk yang Dibutuhkan
+Aquarium Mini
+Water Conditioner
+Thermometer
+Betta Food
+Dekorasi Aquarium
+Customer dapat langsung:
+Lihat Produk
+atau:
+Tambah ke Keranjang
+Dengan demikian artikel berfungsi sebagai content marketing + shopping experience.
+
+61. ARTICLE SEARCH
+Customer dapat mencari artikel.
+Contoh:
+[ 🔍 Cari artikel tentang ikan cupang... ]
+Search berdasarkan:
+Judul
+Isi artikel
+Tag
+Kategori
+Contoh pencarian:
+"ikan cupang sakit"
+akan menampilkan artikel terkait:
+Cara mengetahui ikan cupang sakit
+Penyakit umum ikan cupang
+Ikan cupang tidak mau makan
+Cara menjaga kesehatan ikan cupang
+
+62. ADMIN ARTICLE MANAGEMENT
+Tambahkan menu baru di Admin:
+Articles
+Submenu:
+All Articles
+Add Article
+Categories
+Tags
+Drafts
+Published
+Trash
+
+63. CREATE ARTICLE
+Admin dapat membuat artikel dengan editor yang nyaman.
+Field:
+Title
+Judul artikel.
+Slug
+Otomatis dibuat dari title tetapi dapat diedit.
+Contoh:
+Cara Merawat Ikan Cupang untuk Pemula
+↓
+cara-merawat-ikan-cupang-untuk-pemula
+Featured Image
+Upload gambar utama.
+Category
+Pilih kategori.
+Tags
+Contoh:
+cupang
+perawatan
+pemula
+ikan-hias
+Excerpt
+Ringkasan artikel.
+Content
+Rich Text Editor.
+
+64. ARTICLE EDITOR
+Gunakan editor modern seperti:
+TipTap / Lexical / Editor.js
+Support:
+Heading
+Paragraph
+Bold
+Italic
+Underline
+Link
+Image
+Video
+Quote
+Bullet list
+Numbered list
+Table
+Code block jika diperlukan
+Divider
+Admin tidak perlu mengetahui HTML.
+
+65. ARTICLE SEO SETTINGS
+Setiap artikel memiliki SEO settings:
+SEO Title
+Contoh:
+Cara Merawat Ikan Cupang untuk Pemula | BettaFish Store
+Meta Description
+Contoh:
+Panduan lengkap cara merawat ikan cupang untuk pemula,
+mulai dari aquarium, pakan, air hingga menjaga kesehatan ikan.
+Focus Keyword
+Contoh:
+cara merawat ikan cupang
+Canonical URL
+Open Graph Image
+
+66. ARTICLE STATUS
+Artikel memiliki status:
+Draft
+Published
+Scheduled
+Archived
+Trash
+Admin dapat:
+Save Draft
+Preview
+Publish
+
+67. SCHEDULED ARTICLE
+Admin dapat menjadwalkan artikel.
+Contoh:
+Publish Date:
+25 September 2026
+Time:
+09:00
+Artikel otomatis berubah menjadi Published ketika waktunya tiba.
+
+68. ARTICLE ANALYTICS
+Admin dapat melihat statistik artikel:
+Total views
+Unique visitors
+Average reading time
+Popular articles
+Most clicked articles
+Product clicks from article
+Contoh dashboard:
+ARTICLE ANALYTICS
+Total Views
+12,540
+Published Articles
+48
+Average Reading Time
+4m 32s
+Most Popular
+Cara Merawat Ikan Cupang
+
+69. ARTICLE DATABASE
+Tambahkan tabel:
+articles
+id
+title
+slug
+excerpt
+content
+featured_image
+author_id
+category_id
+status
+published_at
+created_at
+updated_at
+article_categories
+id
+name
+slug
+description
+image
+status
+article_tags
+id
+name
+slug
+article_tag_relations
+article_id
+tag_id
+article_products
+Relasi antara artikel dan produk.
+article_id
+product_id
+sort_order
+
+70. ARTIKEL DI NAVBAR
+Tambahkan menu:
+Home
+Shop
+Kategori
+Artikel
+Tentang Kami
+Kontak
+Pada mobile:
+Home
+Shop
+Kategori
+Artikel
+Wishlist
+Cart
+Account
+
+71. ARTICLE HOMEPAGE SECTION
+Admin dapat mengatur apakah artikel ditampilkan di homepage.
+Appearance → Homepage → Sections
+Tambahkan:
+Articles
+Admin dapat memilih:
+Aktif / Nonaktif
+Jumlah artikel
+Layout
+Judul section
+Subtitle
+Category filter
+Layout pilihan:
+Grid
+[Article] [Article] [Article]
+Horizontal
+[Image] Article
+[Image] Article
+[Image] Article
+Featured
+┌─────────────────────┐
+│                     │
+│ Featured Article    │
+│                     │
+└─────────────────────┘
+[Article] [Article]
+
+72. ARTICLE CARD CUSTOMIZATION
+Card artikel mengikuti Appearance Settings.
+Admin dapat mengatur:
+Card radius
+Image radius
+Font
+Title size
+Excerpt size
+Metadata size
+Card shadow
+Hover effect
+Button style
+Semua menggunakan Design Token yang sama dengan frontend.
+
+73. ARTICLE RECOMMENDATION
+Pada akhir artikel tampilkan:
+Artikel Terkait
+Sistem dapat merekomendasikan artikel berdasarkan:
+Kategori
+Tag
+Keyword
+Contoh:
+Artikel:
+Cara Merawat Ikan Cupang
+Related:
+Berapa Kali Cupang Diberi Makan?
+Cara Mengganti Air Aquarium
+Tanda Ikan Cupang Sehat
+Kesalahan Pemula Memelihara Cupang
+
+74. ARTICLE → PRODUCT CONVERSION
+Tambahkan CTA di artikel.
+Contoh:
+Butuh perlengkapan untuk merawat ikan cupang?
+Lihat Produk Perawatan Cupang
+atau:
+Siap membuat aquarium baru untuk cupang Anda?
+Lihat Koleksi Aquarium
+CTA dapat diatur admin.
+
+75. CONTENT MANAGEMENT
+Admin memiliki menu:
+Content Management
+Berisi:
+Articles
+Categories
+Tags
+Banners
+Pages
+About Us
+FAQ
+Contact
+Testimonials
+Admin dapat mengelola seluruh konten tanpa menyentuh kode.
+
+76. STATIC PAGES
+Buat halaman:
+Tentang Kami
+Kontak
+FAQ
+Kebijakan Privasi
+Syarat &amp; Ketentuan
+Kebijakan Pengiriman
+Kebijakan Pengembalian
+Panduan Perawatan Ikan
+Admin dapat mengedit konten halaman tersebut melalui CMS.
+
+77. FAQ
+Tambahkan FAQ khusus ikan cupang.
+Contoh:
+Apakah ikan cupang bisa hidup tanpa filter?
+Jawaban dapat ditulis oleh admin berdasarkan panduan perawatan yang digunakan toko.
+Berapa ukuran aquarium untuk ikan cupang?
+Jawaban informatif.
+Berapa kali ikan cupang diberi makan?
+Jawaban informatif.
+Bagaimana cara mengganti air aquarium?
+Jawaban informatif.
+Bagaimana cara merawat ikan setelah sampai?
+Jawaban informatif.
+FAQ dapat dikelola melalui Admin.
+
+78. INTERNAL LINKING
+Artikel harus dapat saling terhubung.
+Contoh:
+Artikel:
+Cara Merawat Ikan Cupang
+dapat memiliki link menuju:
+Cara Memilih Aquarium
+Panduan Pemberian Pakan
+Penyakit Ikan Cupang
+Cara Mengganti Air
+Artikel juga dapat memiliki link menuju produk terkait.
+Tujuan:
+Mempermudah navigasi.
+Meningkatkan SEO.
+Meningkatkan waktu kunjungan.
+Membantu customer menemukan produk yang relevan.
+
+79. ARTICLE SEO REQUIREMENTS
+Setiap artikel harus memiliki:
+SEO-friendly URL
+Meta title
+Meta description
+Heading hierarchy
+Featured image
+Alt text
+Internal links
+Related articles
+Related products
+Open Graph metadata
+Structured data jika sesuai
+Sitemap inclusion
+URL harus sederhana.
+Contoh:
+/artikel/cara-merawat-ikan-cupang
+/artikel/makanan-terbaik-ikan-cupang
+/artikel/cara-mengganti-air-cupang
+Jangan gunakan URL seperti:
+/article?id=123
+
+80. ACCEPTANCE CRITERIA — ARTICLE SYSTEM
+Fitur artikel dianggap berhasil apabila:
+Customer
+Customer dapat melihat daftar artikel.
+Customer dapat membaca artikel.
+Customer dapat mencari artikel.
+Customer dapat memfilter artikel berdasarkan kategori.
+Customer dapat melihat artikel terkait.
+Customer dapat melihat produk terkait.
+Customer dapat membagikan artikel.
+Customer dapat melihat artikel dengan nyaman di mobile.
+Admin
+Admin dapat:
+Membuat artikel.
+Edit artikel.
+Delete artikel.
+Save draft.
+Publish artikel.
+Schedule artikel.
+Mengatur kategori.
+Mengatur tag.
+Upload featured image.
+Mengatur SEO.
+Menambahkan produk terkait.
+Menambahkan artikel terkait.
+Melihat statistik artikel.
+Appearance
+Artikel harus mengikuti:
+Font yang dipilih admin.
+Ukuran font yang dipilih admin.
+Warna tema.
+Dark mode.
+Light mode.
+Border radius.
+Button style.
+Card style.
+Dengan demikian, ketika admin mengubah font atau tema melalui Appearance Settings, halaman artikel juga otomatis mengikuti pengaturan tersebut.
+
+81. CONTOH KONTEN AWAL
+Saat pertama kali website dibuat, isi dengan beberapa artikel dummy berkualitas sebagai contoh:
+Cara Merawat Ikan Cupang untuk Pemula
+Panduan Lengkap Menyiapkan Aquarium Ikan Cupang
+Berapa Kali Ikan Cupang Harus Diberi Makan?
+Makanan yang Cocok untuk Ikan Cupang
+Cara Mengganti Air Aquarium Ikan Cupang
+Cara Mengetahui Ikan Cupang Sehat
+Tanda-Tanda Ikan Cupang Sedang Sakit
+Jenis-Jenis Ikan Cupang yang Populer
+Perbedaan Halfmoon, Plakat dan Crowntail
+Cara Memilih Ikan Cupang untuk Pemula
+Cara Membuat Ikan Cupang Beradaptasi Setelah Pengiriman
+Kesalahan yang Sering Dilakukan Pemilik Ikan Cupang
+Panduan Dasar Breeding Ikan Cupang
+Cara Merawat Burayak Ikan Cupang
+Panduan Menjaga Kualitas Air Aquarium
+Artikel awal harus menggunakan bahasa Indonesia yang mudah dipahami dan memiliki struktur:
+Judul → Intro → Daftar Isi → Pembahasan → Tips → Produk Terkait → Artikel Terkait → CTA
+
+82. FINAL CONTENT STRATEGY
+Website bukan hanya berfungsi sebagai:
+E-Commerce Ikan Cupang
+tetapi juga sebagai:
+E-Commerce + Education + Community
+Tiga bagian utama:
+┌──────────────────────────────┐
+│        BETTAFISH STORE       │
+├──────────────┬───────────────┤
+│   SHOP       │   ARTICLES    │
+│              │               │
+│ Buy Products │ Learn &amp; Care  │
+├──────────────┴───────────────┤
+│       BETTA COMMUNITY        │
+└──────────────────────────────┘
+Konsep akhirnya:
+Belanja ikan → Pelajari cara merawat → Beli perlengkapan → Rawat ikan → Kembali membaca artikel → Belanja kembali
+Artikel harus terintegrasi dengan produk sehingga konten edukasi dapat membantu customer menemukan produk yang memang relevan dengan kebutuhan mereka.
