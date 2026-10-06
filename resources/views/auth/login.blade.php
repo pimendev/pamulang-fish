@@ -50,12 +50,6 @@
             <span>Belum memiliki akun?</span>
             <a href="{{ route('register') }}" class="font-bold text-sky-600 hover:text-sky-700 ml-1">Daftar sekarang</a>
         </div>
-
-        <div class="mt-6 p-3 bg-slate-50 rounded-xl text-[11px] text-slate-500 text-center border border-slate-200/60">
-            <strong>Info Akun Uji Coba:</strong><br>
-            Super Admin: <code class="text-sky-700">admin@pamulangfish.com</code> / <code class="text-sky-700">password</code><br>
-            Customer: <code class="text-sky-700">customer@pamulangfish.com</code> / <code class="text-sky-700">password</code>
-        </div>
     </div>
 </div>
 @endsection
